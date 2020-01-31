@@ -1,0 +1,232 @@
+[
+    {
+        "Id": "52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184",
+        "Created": "2019-10-03T10:54:46.0978527Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "apache2-foreground"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2019-10-03T10:54:46.7286663Z",
+            "FinishedAt": "2019-10-03T16:01:25.4925596Z"
+        },
+        "Image": "sha256:8ad87a8e95c4c45c973136eabf81952f728bfc8bbf3d08231f2dffcf794b67ed",
+        "ResolvConfPath": "/var/lib/docker/containers/52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184/hostname",
+        "HostsPath": "/var/lib/docker/containers/52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184/hosts",
+        "LogPath": "/var/lib/docker/containers/52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184/52039c5c5830bb946cf65e49d95025d5ce83062696b8bd5db5303f8205418184-json.log",
+        "Name": "/my-own-phpmyadmin",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8081"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Capabilities": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": [
+                "/my-own-mysql:/my-own-phpmyadmin/db"
+            ],
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/538e5461aed74002219f1f7b2b09e44aa806ec397b12d5ac6e6de0621d4236e1-init/diff:/var/lib/docker/overlay2/2403d8802cc1e995694ee37b25b2aa2f863c39058ce5a29a1402b83f0fae217c/diff:/var/lib/docker/overlay2/98c1aaa7351faad3d06a451fbeec739a4f48801676a5b3f5d6020f91be2c73a5/diff:/var/lib/docker/overlay2/c6c100300de978300cdc2fa4a7d26623014bbbf5eae07baf410d48c0b5cd411f/diff:/var/lib/docker/overlay2/6776d194ac93812ebf7f58028157e6928453995070bdd5e3d73ac3ddf8a5cce9/diff:/var/lib/docker/overlay2/d01468d374582617553d8f2a1dbc435e38195b003addecc9be5d676150592bc9/diff:/var/lib/docker/overlay2/c7cb0c38d88c8af0b355037d69433cec0b0919dfe50e54c767848bd0638ea87d/diff:/var/lib/docker/overlay2/442a05d9a765d753e4c093ee4658d987eb8e64989727cc8438c2a9b87c4cf956/diff:/var/lib/docker/overlay2/16376a45b734a26ba3a577d68c73fe4987cd5874609628563bea61178ec48d77/diff:/var/lib/docker/overlay2/1a04f1c6ae0a4766d62a0b77a7ce5ad582967d50e338fe9d3d52b5a07875d875/diff:/var/lib/docker/overlay2/cac7c8ed19f1b004b57ca9b9e0e0c8a428108af057216158c2234ef996c782ed/diff:/var/lib/docker/overlay2/bfc9fcbd47197d057410a0af9283858a9525649a8505703009eab5d99b3d836c/diff:/var/lib/docker/overlay2/c6ec2dfbc520aadf5c01b9e15c2c4ef59de3ad05982279e7cd544b1f21ca254a/diff:/var/lib/docker/overlay2/aeccabef7380299456c13cf338690617475ca13189d77489a4c3ce4fffdc4609/diff:/var/lib/docker/overlay2/f6e35bdfa336e9db228ebfa342304b8cda9907f3f887d55bf49a33ae8e6b1418/diff:/var/lib/docker/overlay2/b6cc786392dd9bb349fa363bfcaf5d147abce37392e88ef1a0c90181be7ea30e/diff:/var/lib/docker/overlay2/279a5495122eaa7eb563a791e6b9d9dfb42a4aaa004dc242389a2f8bb780f4b0/diff:/var/lib/docker/overlay2/1a1c39e549b4ddcb29ac44c7c15fc2b4edf871b04d95417b5c0b9b615d1f9655/diff:/var/lib/docker/overlay2/7f6eee41a30f4caa7b334faacc54b5fd643f83a97042c4375d431d98e749a357/diff:/var/lib/docker/overlay2/3efc63ac2f738847306611942b5a27339c62519cdb630b8e09c057aa5a3e209c/diff",
+                "MergedDir": "/var/lib/docker/overlay2/538e5461aed74002219f1f7b2b09e44aa806ec397b12d5ac6e6de0621d4236e1/merged",
+                "UpperDir": "/var/lib/docker/overlay2/538e5461aed74002219f1f7b2b09e44aa806ec397b12d5ac6e6de0621d4236e1/diff",
+                "WorkDir": "/var/lib/docker/overlay2/538e5461aed74002219f1f7b2b09e44aa806ec397b12d5ac6e6de0621d4236e1/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "52039c5c5830",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "PHPIZE_DEPS=autoconf \t\tdpkg-dev \t\tfile \t\tg++ \t\tgcc \t\tlibc-dev \t\tmake \t\tpkg-config \t\tre2c",
+                "PHP_INI_DIR=/usr/local/etc/php",
+                "APACHE_CONFDIR=/etc/apache2",
+                "APACHE_ENVVARS=/etc/apache2/envvars",
+                "PHP_EXTRA_BUILD_DEPS=apache2-dev",
+                "PHP_EXTRA_CONFIGURE_ARGS=--with-apxs2 --disable-cgi",
+                "PHP_CFLAGS=-fstack-protector-strong -fpic -fpie -O2",
+                "PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2",
+                "PHP_LDFLAGS=-Wl,-O1 -Wl,--hash-style=both -pie",
+                "GPG_KEYS=1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F",
+                "PHP_VERSION=7.2.22",
+                "PHP_URL=https://www.php.net/get/php-7.2.22.tar.xz/from/this/mirror",
+                "PHP_ASC_URL=https://www.php.net/get/php-7.2.22.tar.xz.asc/from/this/mirror",
+                "PHP_SHA256=eb597fcf8dc0a6211a42a6346de4f63ee166829a6df6d8ed767fe14be8d1c3a3",
+                "PHP_MD5=",
+                "VERSION=4.9.1",
+                "URL=https://files.phpmyadmin.net/phpMyAdmin/4.9.1/phpMyAdmin-4.9.1-all-languages.tar.xz"
+            ],
+            "Cmd": [
+                "apache2-foreground"
+            ],
+            "Image": "phpmyadmin/phpmyadmin",
+            "Volumes": null,
+            "WorkingDir": "/var/www/html",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "version": "4.9.1"
+            },
+            "StopSignal": "WINCH"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "d0b744cc62c68e992ff51dd470e2335ab5b1d909fa33626ec4da2a414ab05cce",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/d0b744cc62c6",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "509270ea60cfb01aa40824cfa08ce0acac73a08a5beb706dabc7062f3dfabf70",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "onuspaymentmanagerdb",
+            "dialect": "MariaDB",
+            "name": "localhost",
+            "password": "Uop2UnOHKxSY01GzXk6Q",
+            "port": 3306,
+            "server": "dev.heymanai.com",
+            "username": "user"
+        }
+    ]
+}
