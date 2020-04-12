@@ -2,15 +2,9 @@ version: '3'
 services:
   web:
     image: nginx
-  # db:
-  #   image: mysql
-  #   ports:
-  #   - "3306:3306"
-  #   environment:
-  #   - MYSQL_ROOT_PASSWORD=root
-  #   - MYSQL_USER=userclear
-  #   - MYSQL_PASSWORD=root
-  #   - MYSQL_DATABASE=demodb
+    container_name: nginxServer
+    ports: 
+     - '9090:80'
 
   mysql:
     image: mysql:5.7
