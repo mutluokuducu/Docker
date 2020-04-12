@@ -19,7 +19,7 @@ services:
      - '3306:3306'
     expose: 
      - '3306'
-# Install adminer (Adminer is a tool for managing in MySQL.)
+# Install adminer (Adminer is a tool for managing in MySQL)
  adminer:
    image: adminer
    container_name: db_adminer
